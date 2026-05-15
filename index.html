@@ -678,36 +678,7 @@ footer{background:#0a0814;padding:40px 0;text-align:center;border-top:1px solid 
 
 </div>
 
-<div class="contact-intent-modal" id="contactIntentModal">
-  <div class="contact-intent-overlay" onclick="closeContactIntentModal()"></div>
-  <div class="contact-intent-content">
-    <button type="button" class="contact-intent-close" onclick="closeContactIntentModal()" aria-label="Закрыть">&times;</button>
-    <h3 class="contact-intent-title">Последний шаг перед открытием <span class="contact-intent-highlight" id="intentMessengerLabel">WhatsApp</span></h3>
-    <p class="contact-intent-text">Выберите тему обращения и подтвердите, что готовы написать. Так я защищаю контакты от случайных кликов.</p>
-    <div class="intent-step">
-      <label for="intentTopic">Что нужно решить?</label>
-      <select id="intentTopic" class="intent-select">
-        <option value="">Выберите ситуацию</option>
-        <option value="love">Вернуть или удержать любимого</option>
-        <option value="negative">Снять порчу, сглаз или негатив</option>
-        <option value="diagnostic">Нужна диагностика и консультация</option>
-        <option value="other">Другая проблема</option>
-      </select>
-    </div>
-    <div class="intent-step">
-      <label>Подтвердите намерение</label>
-      <label class="intent-checkbox">
-        <input type="checkbox" id="intentReadyCheckbox">
-        <span>Я действительно хочу открыть чат и описать ситуацию</span>
-      </label>
-    </div>
-    <div class="intent-timer" id="intentTimerHint"></div>
-    <div class="contact-intent-actions">
-      <a href="#" class="btn intent-confirm-btn disabled" id="intentConfirmBtn" role="button" aria-disabled="true">Открыть чат</a>
-      <button type="button" class="btn intent-cancel-btn" onclick="closeContactIntentModal()">Вернуться</button>
-    </div>
-  </div>
-</div>
+
 
 <script>
 (() => {
