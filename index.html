@@ -816,7 +816,7 @@ function initMessengerIntent(){
                     evt.preventDefault();
                     evt.stopPropagation();
                 }
-                openContactIntentModal(type, targetUrl);
+                window.open(targetUrl, '_blank');
             };
             btn.addEventListener('click', openModal);
             btn.addEventListener('keydown', evt => {
